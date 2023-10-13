@@ -1,0 +1,81 @@
+@fontePrincipal: Oswald, sans-serif;
+@fontSecundaria: Lobster, sans-serif;
+@corDoTexto: #90ee90;
+@corDobotao: #ff3;
+@corDefundo: #da70d6;
+
+
+body {
+    background-color: @corDefundo;
+
+}
+
+
+header {
+    padding: 16px 0;
+    color: @corDoTexto;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 2em;
+}
+
+
+form {
+    padding: 16px 0;
+    color: @corDoTexto;
+    justify-content: center;
+    display: flex;
+    padding: 6px;
+    font-weight: bold;
+    margin-left: 2px;
+    font-size: 20px;
+}
+
+
+
+button {
+    border: none;
+    font-weight: bold;
+    color: black;
+    background-color: @corDobotao;
+    cursor: pointer;
+    padding: 12px;
+}
+
+
+ul li {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    cursor: pointer;
+    padding: 3px;
+}
+
+.titulo {
+    font-family: @fontePrincipal;
+}
+
+.form {
+    font-family: @fontSecundaria;
+}
+
+.form, button {
+    font-family: @fontePrincipal;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-left: 8px;
+}
+
+.form, input {
+    border-radius: 6px;
+    padding: 2px;
+}
+
+* {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
